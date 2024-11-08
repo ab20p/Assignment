@@ -1,0 +1,207 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 462px;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 35%;
+    text-align: center;
+
+  }
+
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  h2{
+    color: #FF6B82;
+    ;
+  }
+  #firstbox{
+    height: 174px;
+    width: 341px;
+    position: fixed;
+    top: 235px;
+    left: 525px;
+    border: 2px solid #FF6B82;
+    display: flex;
+  }
+  .unit{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+  }
+  .discount{
+    position: absolute;
+    top: 13px;
+    left: 100px;
+    background-color: #FF6B82;height: 15px;width: 44px;
+  }
+  .standp{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    font-weight: 400;
+  }
+  .amount{
+    position: absolute;
+    top: 8px;
+    left: 250px;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  strike{
+    position: absolute;
+    top: 44px;
+    left: 250px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .btn{
+    appearance: none;
+    position: absolute;
+    top: 28px;
+    left: 18px;
+    border:1px solid black;
+    width: 15px;
+	height: 15px;
+    border-radius: 50%;
+  }
+  
+  .btn:checked{
+    position: absolute;
+    top: 28px;
+    left: 18px;
+    width: 15px;
+	height: 15px;
+    border-radius: 50%;
+    background-color:#FF6B82 ;
+  }
+  .size{
+    position: absolute;
+    top: 58px;
+    left: 50px;
+  }
+  .colr{
+    position: absolute;
+    top: 58px;
+    left: 110px;
+  }
+  .p1{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+  }
+  .select1{
+    height: 20px;
+    width: 50px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+  }
+  .select2{
+    height: 20px;
+    width: 50px;
+    position: absolute;
+    top: 15px;
+    left: 85px;
+  }
+  .p2{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+  }
+  .select3{
+    height: 20px;
+    width: 50px;
+    position: absolute;
+   top: 15px;
+    left: 30px;
+  }
+  .select4{
+    height: 20px;
+    width: 50px;
+    position: absolute;
+    top: 15px;
+    left: 85px;
+  }
+  .ribbon{
+    position: absolute;
+    top:-5px;
+    left:190px;
+    background-color: #FF6B82;
+    color: white;
+    height: 30px;
+    width: 140px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+  }
+  #secondbox{
+    height: 174px;
+    width: 341px;
+    position: fixed;
+     top: 60px;
+    left: 525px;
+    border: 2px solid #FF6B82;
+    display: flex;
+  }
+  #thirdbox{
+    height: 174px;
+    width: 341px;
+    position: fixed;
+    top: 410px;
+    left: 525px;
+    border: 2px solid #FF6B82;
+    display: flex;
+  }
+  button{
+    background-color: #FF6B82;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    width: 341px;
+    height: 40px;
+    position: fixed;
+    border: none;
+    top: 596px;
+    left: 525px;
+  }
+  #smallbox1{
+    height: 90px;
+    width: 341px;
+    position: fixed;
+     top: 60px;
+    left: 525px;
+    border: 2px solid black;
+    display: flex;
+  }
+  #smallbox2{
+    height: 90px;
+    width: 341px;
+    position: fixed;
+    left: 525px;
+    top: 235px;
+    border: 2px solid black;
+    display: flex;
+  }
+  #smallbox3{
+    height: 90px;
+    width: 341px;
+    position: fixed;
+    left: 525px;
+    top: 410px;
+    border: 2px solid black;
+    display: flex;
+  }
